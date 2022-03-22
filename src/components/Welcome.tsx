@@ -7,7 +7,7 @@ function Welcome(props: {title: string, profile: string, slogan: string}) {
       <h1 className="title">
           {props.title}
       </h1>
-      <img className="profile" src={props.profile} />
+      <img className="profile" alt="profile" src={props.profile} />
       <h1 className="slogan">
           {props.slogan}
       </h1>

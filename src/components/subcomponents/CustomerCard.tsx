@@ -8,7 +8,7 @@ function CustomerCard(props: {name: string, imgSrc: string, desc: string}) {
             <h1>{props.name}</h1>
             <p>{props.desc}</p>
         </div>
-        <img className="picture" src={props.imgSrc}/>
+        <img className="picture" alt={props.name} src={props.imgSrc}/>
     </div>
   );
 }
