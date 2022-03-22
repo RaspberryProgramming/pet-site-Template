@@ -1,0 +1,11 @@
+.Navbar .title {
+    margin-left: 5px;
+}
+
+.Navbar {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #333354;
+    color:white;
+}

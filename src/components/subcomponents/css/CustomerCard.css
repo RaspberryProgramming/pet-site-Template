@@ -1,0 +1,17 @@
+.CustomerCard {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.CustomerCard .text {
+    width: 45%;
+    margin-right: auto;
+}
+
+.CustomerCard .picture {
+    height: 256px;
+    width: 256px;
+    border-radius: 10px;
+}
